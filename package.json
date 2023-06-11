@@ -1,0 +1,10 @@
+{
+  "name": "polygon",
+  "description": "An all-in-one solution for ERC721 collections.",
+  "author": "sam",
+  "license": "MIT",
+  "version": "2.3.0",
+  "scripts": {
+    "build-dapp": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
+  }
+}
